@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="angular.js"></script>
+    <script src="namesController.js"></script>
+</head>
+<body>
+<div ng-app="myApp" ng-controller="namesCtrl">
+    <p>
+    <ul>
+        <li ng-repeat="x in names">
+            {{x.name}} 今年 {{x.age}}岁
+        </li>
+    </ul>
+    </p>
+</div>
+</body>
+
+</html>

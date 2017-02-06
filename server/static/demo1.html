@@ -1,24 +1,82 @@
 <!DOCTYPE html>
 <html>
-<meta charset="utf-8">
-<script src="http://localhost:5000/angular.js"></script>
+<head>
+    <meta charset="utf-8">
+    <script src="http://localhost:5000/angular.js"></script>
+    <style>
+        input.ng-invalid{
+            background-color: #e6e6e6;
+        }
+        input.ng-valid{
+            background-color: orangered;
+        }
+    </style>
+</head>
+
 
 <body>
 
-<div ng-app="myApp" ng-controller="myCtrl">
+<div ng-app="myApp" ng-controller="myCtrl" ng-init="a=1;b=2;c=3;person={firstName:'郑',secondName:'金玮'};list=[1,2,3,4,5]">
 
     名:  <input type="text" ng-model="firstName"><br>
     姓:  <input type="text" ng-model="lastName"><br>
+    kk:  <input type="text" ng-model="kk"><br>
     <br>
-    姓名: {{firstName + " " + lastName}}
+    姓名: {{firstName + " " + lastName+" "+kk}}
+    <p>{{5+5}}</p>
+    <p>{{a*b+c}}</p>
+    <p>bind:<span ng-bind="a*b+c"></span></p>
+    <p>object:<span ng-bind="person.firstName+person.secondName"></span></p>
+    <p>array:<span ng-bind="list[0]"></span></p>
+    <p>
+        <ul>
+            <li ng-repeat="l in list">
+                <p><span ng-bind="l"></span></p>
+            </li>
+        </ul>
+    </p>
+    <hello-directive></hello-directive>
+    <div class="hello-directive"></div>
+    <div hello-directive></div>
+    <!-- directive: hello-directive -->
 
+    <p ng-controller="myCtrl2">
+        {{name}}
+    </p>
+    <form name="myForm">
+        Email:
+        <input type="email" name="myAddress" ng-model="text" required>
+        <span style="color:red;" ng-show="myForm.myAddress.$error.email">不是一个合法的邮箱</span>
+    </form>
+    <p>
+        <ul>
+            <li>valid:{{myForm.myAddress.$valid}}</li>
+            <li>dirty:{{myForm.myAddress.$dirty}}</li>
+            <li>touched:{{myForm.myAddress.$touched}}</li>
+        </ul>
+    </p>
+    <p>根作用域中的变量：{{rootName}}</p>
 </div>
 
 <script>
     var app = angular.module('myApp', []);
-    app.controller('myCtrl', function($scope) {
+    app.controller('myCtrl', function($scope,$rootScope) {
         $scope.firstName = "John";
         $scope.lastName = "Doe";
+        $scope.kk = "kk";
+        $rootScope.rootName="myApp";
+    });
+
+    app.directive("helloDirective",function(){
+       return {
+           restrict:'EACM',
+           replace:true,
+           template:"<h1>hello world</h1>"
+       }
+    });
+
+    app.controller('myCtrl2',function($scope){
+       $scope.name="zhengjinwei";
     });
 </script>
 

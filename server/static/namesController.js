@@ -30,4 +30,9 @@ app.controller('namesCtrl',function($scope,$location,$http,$timeout,$interval,$m
     }, 1000);
 
     $scope.myData = $myFunc.toHex(255);
+
+    $scope.myHide = false;
+    $scope.toggle = function(){
+        $scope.myHide = (!$scope.myHide);
+    }
 });

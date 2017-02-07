@@ -5,15 +5,29 @@
     <title></title>
     <script src="angular.js"></script>
     <script src="namesController.js"></script>
+    <style>
+        table, th , td {
+            border: 1px solid grey;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        table tr:nth-child(odd) {
+            background-color: #f1f1f1;
+        }
+        table tr:nth-child(even) {
+            background-color: #ffffff;
+        }
+    </style>
 </head>
 <body>
-<div ng-app="myApp" ng-controller="namesCtrl">
+<div ng-app="myApp" ng-controller="namesCtrl" ng-init="mySwitch=true">
     <p>网址:{{myUrl}}</p>
     <p>zjw:{{zjw}}</p>
     <p>header:{{myHeader}}</p>
     <p>时间:{{theTime}}</p>
     <p>16进制:{{myData}}</p>
     <p>自定义过滤器:{{255 | hex}}</p>
+    <hr/>
     <p><input type="text" ng-model="test"></p>
     <p>
     <ul>
@@ -22,14 +36,58 @@
         </li>
     </ul>
     </p>
-
+    <hr/>
     <p>
         <select ng-init="selectedName = names[1]" ng-model="selectedName" ng-options="x.name for x in names"></select>
     </p>
+    <hr/>
     <p>
         <select>
             <option ng-repeat="x in names">{{x.name}}</option>
         </select>
+    </p>
+    <hr/>
+    <p>
+        <table>
+            <tr>
+                <th>序号</th>
+                <th>name</th>
+                <th>age</th>
+            </tr>
+            <tr ng-repeat="x in names | orderBy:'age'">
+                <td>{{$index+1}}</td>
+                <td>{{x.name | uppercase}}</td>
+                <td>{{x.age}}</td>
+            </tr>
+        </table>
+    </p>
+    <hr/>
+    <p>
+        ng-disabled 指令：
+        <p>
+            <button ng-disabled="mySwitch">点我!</button>
+        </p>
+        <p>
+            <input type="checkbox" ng-model="mySwitch">按钮
+        </p>
+        {{mySwitch}}
+    </p>
+    <hr/>
+    <p>
+        ng-show 指令：
+        <p ng-show="mySwitch == true">我是可见的</p>
+    </p>
+    <hr/>
+    <p>
+        ng-click 指令：
+        <button ng-click="mySwitch=(!mySwitch)">点我</button>
+    </p>
+    <hr/>
+    <button ng-click="toggle()">隐藏/显示</button>
+    <p>
+        <p ng-hide="myHide">
+            哈哈
+        </p>
     </p>
 </div>
 </body>

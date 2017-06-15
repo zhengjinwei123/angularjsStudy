@@ -2,7 +2,825 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87f2af6a-c905-4a74-b13f-9b6272e69848" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/History.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/debug/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/debug/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/debug/History.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/debug/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/debug/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/debug/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/debug/browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/debug/component.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/debug/debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/debug/node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/debug/node_modules/ms/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/debug/node_modules/ms/History.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/debug/node_modules/ms/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/debug/node_modules/ms/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/debug/node_modules/ms/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/debug/node_modules/ms/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/debug/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/node_modules/escape-html/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/node_modules/escape-html/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/node_modules/escape-html/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/node_modules/escape-html/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/node_modules/on-finished/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/node_modules/on-finished/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/node_modules/on-finished/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/node_modules/on-finished/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/node_modules/on-finished/node_modules/ee-first/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/node_modules/on-finished/node_modules/ee-first/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/node_modules/on-finished/node_modules/ee-first/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/node_modules/on-finished/node_modules/ee-first/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/node_modules/on-finished/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/node_modules/statuses/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/node_modules/statuses/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/node_modules/statuses/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/node_modules/statuses/codes.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/node_modules/statuses/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/node_modules/statuses/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/node_modules/unpipe/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/node_modules/unpipe/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/node_modules/unpipe/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/node_modules/unpipe/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/node_modules/unpipe/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/finalhandler/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/parseurl/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/parseurl/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/parseurl/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/parseurl/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/parseurl/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/utils-merge/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/utils-merge/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/utils-merge/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/utils-merge/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/node_modules/utils-merge/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/connect/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/encodeurl/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/encodeurl/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/encodeurl/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/encodeurl/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/encodeurl/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/escape-html/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/escape-html/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/escape-html/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/escape-html/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/parseurl/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/parseurl/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/parseurl/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/parseurl/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/parseurl/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/.bin/mime" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/.bin/mime.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/debug/.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/debug/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/debug/History.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/debug/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/debug/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/debug/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/debug/browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/debug/component.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/debug/debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/debug/node.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/debug/node_modules/ms/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/debug/node_modules/ms/History.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/debug/node_modules/ms/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/debug/node_modules/ms/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/debug/node_modules/ms/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/debug/node_modules/ms/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/debug/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/depd/History.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/depd/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/depd/Readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/depd/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/depd/lib/browser/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/depd/lib/compat/buffer-concat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/depd/lib/compat/callsite-tostring.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/depd/lib/compat/event-listener-count.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/depd/lib/compat/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/depd/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/destroy/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/destroy/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/destroy/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/destroy/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/etag/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/etag/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/etag/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/etag/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/etag/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/fresh/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/fresh/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/fresh/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/fresh/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/fresh/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/http-errors/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/http-errors/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/http-errors/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/http-errors/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/inherits/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/inherits/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/inherits/inherits.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/inherits/inherits_browser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/inherits/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/setprototypeof/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/setprototypeof/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/setprototypeof/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/http-errors/node_modules/setprototypeof/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/http-errors/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/mime/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/mime/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/mime/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/mime/build/build.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/mime/build/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/mime/cli.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/mime/mime.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/mime/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/mime/types.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/ms/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/ms/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/ms/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/ms/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/on-finished/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/on-finished/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/on-finished/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/on-finished/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/on-finished/node_modules/ee-first/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/on-finished/node_modules/ee-first/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/on-finished/node_modules/ee-first/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/on-finished/node_modules/ee-first/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/on-finished/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/range-parser/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/range-parser/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/range-parser/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/range-parser/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/range-parser/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/statuses/HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/statuses/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/statuses/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/statuses/codes.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/statuses/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/node_modules/statuses/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/node_modules/send/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 01/Listing 01.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 01/Listing 03.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 01/Listing 04.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 01/Listing 05.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 01/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 01/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 01/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 01/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 02/Listing 01.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 02/Listing 02.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 02/Listing 03.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 02/Listing 04.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 02/Listing 05.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 02/Listing 06.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 02/Listing 07.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 02/Listing 08.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 02/Listing 09.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 02/Listing 10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 02/Listing 11.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 02/Listing 12.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 02/Listing 13.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 02/Listing 13.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 02/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 02/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 02/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 02/todo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 02/todo.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 04/Listing 01.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 04/Listing 05.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 04/Listing 06.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 04/Listing 07.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 04/Listing 08.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 04/Listing 09.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 04/Listing 10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 04/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 04/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 04/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 04/bootstrap.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 04/todo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 01.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 02.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 03.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 04.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 05.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 06.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 07.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 08.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 09.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 11.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 12.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 13.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 14.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 15.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 16.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 17.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 18.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 19.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 20.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 21.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 22.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 23.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 24.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 25.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 26.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 27.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 28.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 29.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 30.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 31.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 32.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 33.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 34.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 35.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 36.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 37.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 38.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 39.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 40.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 41.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 42.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 43.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/Listing 44.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/jsdemo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 05/todo.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 06/Listing 01.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 06/Listing 02.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 06/Listing 03.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 06/Listing 04.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 06/Listing 05.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 06/Listing 06.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 06/Listing 07.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 06/Listing 08.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 06/Listing 09.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 06/Listing 10.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 06/Listing 11.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 06/Listing 12.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 06/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 06/app.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 06/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 06/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 06/controllers/productListControllers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 06/controllers/sportsStore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 06/filters/customFilters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 07/Listing 01.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 07/Listing 02.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 07/Listing 03.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 07/Listing 04.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 07/Listing 05.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 07/Listing 06.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 07/Listing 07.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 07/Listing 08.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 07/Listing 09.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 07/Listing 10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 07/Listing 11.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 07/Listing 12.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 07/Listing 13.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 07/Listing 14.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 07/Listing 15.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 07/Listing 16.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 07/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 07/app.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 07/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 07/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 07/components/cart/cart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 07/components/cart/cartSummary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 07/controllers/checkoutControllers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 07/controllers/productListControllers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 07/controllers/sportsStore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 07/filters/customFilters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 07/ngmodules/angular-route.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 07/views/checkoutSummary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 07/views/productList.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/Listing 01.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/Listing 02.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/Listing 03.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/Listing 04.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/Listing 05.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/Listing 06.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/Listing 07.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/Listing 08.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/Listing 09.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/Listing 10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/Listing 11.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/Listing 12.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/Listing 13.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/Listing 14.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/Listing 15.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/Listing 16.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/Listing 17.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/Listing 18.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/Listing 19.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/Listing 20.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/Listing 21.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/Listing 22.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/admin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/app.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/components/cart/cart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/components/cart/cartSummary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/controllers/adminControllers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/controllers/adminProductController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/controllers/checkoutControllers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/controllers/productListControllers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/controllers/sportsStore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/filters/customFilters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/ngmodules/angular-resource.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/ngmodules/angular-route.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/views/adminLogin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/views/adminMain.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/views/adminOrders.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/views/adminProducts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/views/checkoutSummary.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/views/placeOrder.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/views/productList.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 08/views/thankYou.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 09/Listing 01.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 09/Listing 02.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 09/Listing 03.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 09/Listing 04.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 09/Listing 05.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 09/Listing 06.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 09/Listing 07.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 09/Listing 08.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 09/Listing 09.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 09/Listing 10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 09/Listing 11.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 09/Listing 12.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 09/Listing 13.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 09/Listing 14.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 09/Listing 15.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 09/Listing 16.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 09/Listing 17.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 09/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 09/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 09/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 09/controllers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 09/example.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 09/filters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 10/Listing 01.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 10/Listing 02.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 10/Listing 03.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 10/Listing 04.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 10/Listing 05.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 10/Listing 06.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 10/Listing 07.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 10/Listing 08.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 10/Listing 09.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 10/Listing 10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 10/Listing 11.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 10/Listing 12.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 10/Listing 13.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 10/Listing 14.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 10/Listing 15.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 10/Listing 16.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 10/Listing 17.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 10/Listing 18.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 10/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 10/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 10/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 10/bootstrap.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 10/directives.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 10/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 10/table.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 10/todo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 11/Listing 01.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 11/Listing 02.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 11/Listing 03.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 11/Listing 04.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 11/Listing 05.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 11/Listing 06.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 11/Listing 07.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 11/Listing 08.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 11/Listing 09.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 11/Listing 10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 11/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 11/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 11/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 11/bootstrap.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 11/directives.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 11/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 11/table.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 11/todo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 12/Listing 01.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 12/Listing 02.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 12/Listing 03.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 12/Listing 04.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 12/Listing 05.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 12/Listing 06.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 12/Listing 07.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 12/Listing 08.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 12/Listing 09.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 12/Listing 10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 12/Listing 11.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 12/Listing 12.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 12/Listing 13.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 12/Listing 14.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 12/Listing 15.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 12/Listing 16.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 12/Listing 17.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 12/Listing 18.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 12/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 12/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 12/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 12/bootstrap.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 12/forms.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 12/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 12/table.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 12/todo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 13/Listing 01.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 13/Listing 02.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 13/Listing 03.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 13/Listing 04.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 13/Listing 05.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 13/Listing 06.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 13/Listing 07.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 13/Listing 08.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 13/Listing 09.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 13/Listing 10.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 13/Listing 11.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 13/Listing 12.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 13/Listing 13.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 13/Listing 14.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 13/Listing 15.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 13/Listing 16.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 13/Listing 17.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 13/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 13/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 13/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 13/bootstrap.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 13/controllers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 13/controllers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 13/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 13/table.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 13/todo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/Listing 01.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/Listing 02.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/Listing 03.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/Listing 04.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/Listing 05.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/Listing 06.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/Listing 07.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/Listing 08.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/Listing 09.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/Listing 10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/Listing 11.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/Listing 12.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/Listing 13.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/Listing 14.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/Listing 15.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/Listing 16.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/Listing 17.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/Listing 18.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/Listing 19.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/Listing 20.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/Listing 21.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/Listing 22.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/Listing 23.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/Listing 24.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/angular-locale_fr-fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/bootstrap.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/controllers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/controllers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/customFilters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/filters.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/table.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 14/todo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/Listing 01.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/Listing 02.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/Listing 03.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/Listing 04.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/Listing 05.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/Listing 06.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/Listing 07.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/Listing 08.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/Listing 09.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/Listing 10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/Listing 11.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/Listing 12.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/Listing 13.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/Listing 14.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/Listing 15.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/Listing 16.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/Listing 17.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/Listing 18.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/Listing 19.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/Listing 20.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/angular-locale_fr-fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/bootstrap.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/controllers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/controllers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/customFilters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/directives.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/filters.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/jqlite.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/table.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 15/todo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/Listing 01.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/Listing 02.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/Listing 03.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/Listing 04.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/Listing 05.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/Listing 06.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/Listing 07.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/Listing 08.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/Listing 09.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/Listing 10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/Listing 11.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/Listing 12.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/Listing 13.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/Listing 14.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/Listing 15.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/Listing 16.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/Listing 17.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/Listing 18.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/Listing 19.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/Listing 20.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/Listing 21.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/Listing 22.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/Listing 23.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/Listing 24.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/angular-locale_fr-fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/bootstrap.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/controllers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/controllers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/customFilters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/directiveScopes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/directives.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/filters.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/itemTemplate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/jqlite.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/table.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/tableTemplate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/todo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 16/transclude.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/Listing 01.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/Listing 02.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/Listing 03.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/Listing 04.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/Listing 05.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/Listing 06.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/Listing 07.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/Listing 08.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/Listing 09.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/Listing 10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/Listing 11.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/Listing 12.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/angular-locale_fr-fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/bootstrap.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/compileFunction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/controllers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/controllers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/customFilters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/customForms.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/directiveControllers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/directiveScopes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/directives.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/filters.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/itemTemplate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/jqlite.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/table.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/tableTemplate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/todo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 17/transclude.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 18/Listing 01.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 18/Listing 02.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 18/Listing 03.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 18/Listing 04.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 18/Listing 05.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 18/Listing 06.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 18/Listing 07.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 18/Listing 08.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 18/Listing 09.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 18/Listing 10.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 18/Listing 11.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 18/Listing 12.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 18/Listing 13.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 18/angular-locale_fr-fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 18/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 18/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 18/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 18/directives.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 18/domApi.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 18/example.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 18/services.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/Listing 01.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/Listing 02.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/Listing 03.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/Listing 04.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/Listing 05.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/Listing 06.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/Listing 07.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/Listing 08.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/Listing 09.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/Listing 10.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/Listing 11.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/Listing 12.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/Listing 13.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/Listing 14.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/Listing 15.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/Listing 16.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/Listing 17.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/Listing 18.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/Listing 19.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/Listing 20.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/Listing 21.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/Listing 22.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/angular-locale_fr-fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/angular-sanitize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/directives.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/domApi.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/example.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/exceptions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/expressions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/htmlData.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 19/services.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/Listing 01.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/Listing 02.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/Listing 03.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/Listing 04.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/Listing 05.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/Listing 06.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/Listing 07.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/Listing 08.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/Listing 09.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/Listing 10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/Listing 11.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/Listing 12.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/Listing 13.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/Listing 14.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/Listing 15.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/ajax.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/angular-locale_fr-fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/angular-sanitize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/components.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/directives.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/domApi.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/example.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/exceptions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/expressions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/htmlData.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/productData.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/productData.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/promises.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 20/services.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 21/Listing 01.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 21/Listing 02.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 21/Listing 03.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 21/Listing 04.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 21/Listing 05.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 21/Listing 06.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 21/Listing 08.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 21/Listing 09.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 21/Listing 10.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 21/Listing 11.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 21/Listing 12.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 21/Listing 13.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 21/Listing 14.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 21/Listing 15.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 21/Listing 16.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 21/Listing 17.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 21/Listing 18.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 21/angular-resource.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 21/angular-route.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 21/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 21/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 21/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 21/editorView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 21/increment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 21/products.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 21/products.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 21/tableView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 22/Listing 01.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 22/Listing 02.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 22/Listing 03.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 22/Listing 04.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 22/Listing 05.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 22/Listing 06.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 22/Listing 07.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 22/Listing 08.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 22/Listing 09.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 22/Listing 10.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 22/Listing 11.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 22/Listing 12.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 22/Listing 13.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 22/angular-animate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 22/angular-resource.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 22/angular-route.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 22/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 22/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 22/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 22/editorView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 22/increment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 22/products.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 22/products.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 22/tableView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 23/Listing 01.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 23/Listing 02.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 23/Listing 03.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 23/Listing 04.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 23/Listing 05.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 23/angular-animate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 23/angular-resource.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 23/angular-route.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 23/angular-touch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 23/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 23/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 23/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 23/editorView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 23/increment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 23/products.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 23/products.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 23/swipe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 23/tableView.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 24/Listing 01.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 24/Listing 02.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 24/Listing 03.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 24/Listing 04.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 24/Listing 05.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 24/Listing 06.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 24/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 24/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 24/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 24/components.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/Listing 01.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/Listing 02.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/Listing 03.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/Listing 04.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/Listing 05.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/Listing 06.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/Listing 07.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/Listing 08.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/Listing 09.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/Listing 10.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/Listing 11.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/Listing 12.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/Listing 13.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/Listing 14.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/Listing 15.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/Listing 16.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/Listing 17.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/angular-mocks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/app.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/home.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/karma.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/tests/controllerTest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/tests/directiveTest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/tests/filterTest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/tests/firstTest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Chapter 25/tests/serviceTest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pro-angularjs/Deployd_README.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -24,69 +842,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="animate-demo1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/static/animate-demo1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="namesController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/static/namesController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/static/demo1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zjw.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/static/zjw.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="62" lean-forward="false" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+            <state relative-caret-position="168">
+              <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package_json" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>helloDirective</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -104,26 +883,35 @@
         <option value="$PROJECT_DIR$/server/static/demo3.html" />
         <option value="$PROJECT_DIR$/server/static/demo2.html" />
         <option value="$PROJECT_DIR$/server/static/angular-animate.min.js" />
-        <option value="$PROJECT_DIR$/server/static/animate-demo1.html" />
         <option value="$PROJECT_DIR$/server/static/angular-route.js" />
+        <option value="$PROJECT_DIR$/server/static/animate-demo1.html" />
+        <option value="$PROJECT_DIR$/quickStart/package.json" />
+        <option value="$PROJECT_DIR$/quickStart/src/tsconfig.json" />
+        <option value="$PROJECT_DIR$/quickStart/src/main.ts" />
+        <option value="$PROJECT_DIR$/environment/package.json" />
+        <option value="$PROJECT_DIR$/environment/index.html" />
+        <option value="$PROJECT_DIR$/environment/webpack.config.js" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="438" />
-    <option name="y" value="343" />
-    <option name="width" value="1382" />
-    <option name="height" value="601" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -154,38 +942,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angularjs-study1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angularjs-study1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angularjs-study1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angularjs-study1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -194,9 +950,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="recentsLimit" value="5" />
     <property name="editorconfig.notification" value="Applied .editorconfig settings" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs8/node" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -225,7 +983,23 @@
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
       <envs />
@@ -252,6 +1026,26 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Node.js.server.js" />
     </list>
@@ -271,24 +1065,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1486345437112</updated>
-      <workItem from="1497510076089" duration="55000" />
+      <workItem from="1497510076089" duration="4593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55000" />
+    <option name="totallyTimeSpent" value="4593000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="438" y="343" width="1382" height="601" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24851191" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17597471" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30119178" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -298,7 +1094,6 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -350,7 +1145,7 @@
         <state relative-caret-position="1449">
           <caret line="69" column="36" lean-forward="false" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
           <folding>
-            <element signature="n#style#0;n#span#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -369,39 +1164,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/static/angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="19" column="68" lean-forward="false" selection-start-line="19" selection-start-column="68" selection-end-line="19" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/static/angular-animate.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="55" column="47" lean-forward="false" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/static/demo2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="93" column="13" lean-forward="false" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/static/demo3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -412,29 +1178,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/static/animate-demo1.html">
+    <entry file="file://$PROJECT_DIR$/server/static/angular.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        <state relative-caret-position="231">
+          <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/static/namesController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/static/demo1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -446,10 +1194,188 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/pro-angularjs/Chapter 25/Listing 12.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pro-angularjs/Chapter 25/angular-mocks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2268">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pro-angularjs/Chapter 25/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/static/demo3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/static/demo2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1953">
+          <caret line="93" column="13" lean-forward="false" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="7" column="62" lean-forward="false" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/static/demo1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="76" column="24" lean-forward="true" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/static/namesController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/static/animate-demo1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quickStart/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quickStart/src/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quickStart/karma.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quickStart/node_modules/@angular/core/core.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quickStart/e2e/app.e2e-spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quickStart/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quickStart/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="37" lean-forward="false" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quickStart/src/app/app.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quickStart/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/environment/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/environment/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quickStart/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/environment/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding />
         </state>
       </provider>
